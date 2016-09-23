@@ -22,7 +22,7 @@ namespace OopcsWorkShops
         {
             face = ISSMath.RNDInt(2);
         }
-
+        
         // Constructors
         public Coin()
         {
@@ -34,13 +34,13 @@ namespace OopcsWorkShops
         {
             get
             {
-                if (GetFace() == 0) return "HEAD";
-                else return "TAIL";
+                if (GetFace() == 0) return "Heads";
+                else return "Tails";
             }
         }
     }
 
-    public class WorkShop2
+    public class WorkShop2_1
     {
         public static void Main()
         {
@@ -54,6 +54,10 @@ namespace OopcsWorkShops
             coin2.Flip(); Console.WriteLine("Coin2: {0}", coin2.StrFace);
 
             Console.WriteLine("Coin1: {0}", coin1.StrFace);
+
+            Coin coin3 = new Coin();
+            coin3.Flip();
+            Console.WriteLine(coin3.StrFace);
         }
     }
 }
