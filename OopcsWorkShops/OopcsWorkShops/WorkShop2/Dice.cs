@@ -50,6 +50,19 @@ namespace OopcsWorkShops
             d1.Throw(); Console.WriteLine(d1.StrFaceUp);
             d1.Throw(); Console.WriteLine(d1.StrFaceUp);
             d1.Throw(); Console.WriteLine(d1.StrFaceUp);
+            int count = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                d1.Throw();
+                int dicethrow1 = d1.GetFaceUp();
+                d1.Throw();
+                int dicethrow2 = d1.GetFaceUp();
+                if (dicethrow1 + dicethrow2 == 8)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine("Probability of '8' is: {0}", (double)count / 1000);
         }
     }
 }
