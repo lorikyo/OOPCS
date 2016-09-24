@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OopcsWorkShops
 {
-    class Rectangle
+    public class Rectangle
     {
         double length, breadth;
         public Rectangle(double l, double b)
