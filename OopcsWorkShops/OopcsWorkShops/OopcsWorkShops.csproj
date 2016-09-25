@@ -48,11 +48,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopcsWorkShops.DiceMain</StartupObject>
+    <StartupObject>OopcsWorkShops.RationalTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ISS.RV.LIB">
       <HintPath>..\ISS.RV.LIB.dll</HintPath>
+    </Reference>
+    <Reference Include="Rational, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Class Library\Rational\Rational\bin\Debug\Rational.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -64,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WorkShop3\RationalTest.cs" />
+    <Compile Include="WorkShop3\BankAccountTest2.cs" />
+    <Compile Include="WorkShop3\BankAccount2.cs" />
+    <Compile Include="WorkShop3\Customer.cs" />
+    <Compile Include="WorkShop3\BankAccountTest.cs" />
+    <Compile Include="WorkShop3\BankAccount.cs" />
     <Compile Include="WorkShop2\Dice.cs" />
     <Compile Include="WorkShop2\Rectangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +95,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
