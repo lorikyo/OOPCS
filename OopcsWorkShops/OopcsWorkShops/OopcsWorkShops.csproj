@@ -54,9 +54,8 @@
     <Reference Include="ISS.RV.LIB">
       <HintPath>..\ISS.RV.LIB.dll</HintPath>
     </Reference>
-    <Reference Include="Rational, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Class Library\Rational\Rational\bin\Debug\Rational.dll</HintPath>
+    <Reference Include="Rational">
+      <HintPath>..\Rational.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -79,6 +78,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorkShop2\WorkShop2_1.cs" />
     <Compile Include="WorkShop2\Triangle.cs" />
+    <Compile Include="WorkShop4\BankAccount3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
