@@ -67,7 +67,9 @@ namespace OopcsWorkShops
     {
         public static void Main()
         {
+
             Triangle r = new Triangle(10, 24, 26);
+
             Console.WriteLine(r.StrValue());
             Console.WriteLine(r.Perimeter);
             Console.WriteLine(r.Area);

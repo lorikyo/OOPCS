@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopcsWorkShops.RationalTest</StartupObject>
+    <StartupObject>OopcsWorkShops.BadTriangleExceptionTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ISS.RV.LIB">
@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WorkShop7\BadTriangleException.cs" />
     <Compile Include="WorkShop3\RationalTest.cs" />
     <Compile Include="WorkShop3\BankAccountTest2.cs" />
     <Compile Include="WorkShop3\BankAccount2.cs" />
